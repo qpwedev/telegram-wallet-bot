@@ -3,15 +3,17 @@
 
 **Goal**: To create a bot that works like a wallet. It will be able to create accounts for users, transfer money from account to account between users, send invoices and money in the message directly using a special link or inline message from the bot. It could also store the user's documents as a picture with a nickname, delete them and send via link. It would support the possibility of setting daily and monthly limits and overview user transactions.
 
+
 # User Documentation
 
 <img src="img/telewalleter.jpg">
+
 
 ### Get Started
 
 To launch the bot, you need to download the Telegram app, follow the [link](t.me/TeleWalleterBot) and click Start button.
 
-### Features
+### Features ([Presentation](https://pitch.com/embed/b619f416-df14-4820-a6a0-d655ada411d8))
 
 * Send funds to friends in seconds!
 * Сreate invoice or cheque and send as a link!
@@ -30,7 +32,9 @@ To launch the bot, you need to download the Telegram app, follow the [link](t.me
 `/dailylimit [AMOUNT]` — sets a daily limit for all operations to the user
   
 `/monthlylimit [AMOUNT]` — sets a monthly limit for all operations to the user
-   
+
+`/uploaddocument [DOCUMENTID]` — uploads the document
+
 `/showdocument [DOCUMENTID]` — shows the document to the user
    
 `/deletedocument  [DOCUMENTID]` — deletes the document
